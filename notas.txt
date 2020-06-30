@@ -1,0 +1,34 @@
+
+Qué es cypress?
+
+- Cypress es un framework para la automatización de pruebas.
+- No utiliza Selenium.
+- Viene ya con todoas las herramientas que necesitamos out of the box para hacer e2e.
+- Utiliza Javascript.
+
+Por qué usar Cypress?
+
+- Fácil de instalar.
+- Curva de aprendizaje baja.
+- Es fácil de caracterizar pruebas.
+- Solución out of the box. Es muy portable que no necesites instalar nada más que lo que viene en Cypress.
+- En muchas ocaciones es más rápido que las soluciones basadas en Selenium.
+- Tiene un UI para administrar las pruebas.
+- Todas la librerías que se usan son comunes en el mundo e la automatización.
+- MUCHA documentación (en el sitio oficial).
+- Tiene una comunidad creciente.
+- Waits automáticos.
+
+Por qué NO usar Cypress?
+
+- Solo anda en Chrome (a Enero del 2020, a junio de 2020 ya funciona con firefox).
+- A veces da la sensación de ser un producto en estado beta.
+- Solo con Javascript.
+- Aún no tiene una completa integración con Browserstack y Sauce Labs (?).
+- No se puede hacer cambio entre pestañas del navegador o entre páginas de diferente dominio.
+
+Qué viene con Cypress?
+
+- Mocha: framework de pruebas. Cypress utiliza la sintaxis de mocha para hacer las pruebas.
+- Chai: librería para hacer pruebas.
+- Sinon: Nos va a permitir realizar comprobaciones sobre interacciones grabando qué es lo que pasa, dar comportamiento a las comprobaciones, etc.
