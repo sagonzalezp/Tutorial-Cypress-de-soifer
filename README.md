@@ -8,3 +8,7 @@ Tutorial de Cypress de Pablo Sebastián Soifer (https://www.youtube.com/playlist
 # Ejecutar:
  - Escribir en la consola **.\node_modules\bin\cypress open**
  - Otra opcion puede ser simplemente **npx cypess open**
+
+# A tener en cuenta
+ - Si está usando VisualStudio Code este comando agrega una función de autocompletado al archivo sobre el que esté trabajando:
+    **/// <reference types="cypress" />**
