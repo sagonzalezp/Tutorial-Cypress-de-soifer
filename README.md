@@ -12,3 +12,5 @@ Tutorial de Cypress de Pablo Sebastián Soifer (https://www.youtube.com/playlist
 # A tener en cuenta
  - Si está usando VisualStudio Code este comando agrega una función de autocompletado al archivo sobre el que esté trabajando:
     **/// <reference types="cypress" />**
+
+ - Para este proyecto se agregó el comando **"watchForFileChanges": false** al cypress.json para evitar que las pruebas se corran automáticamente al guardar.
