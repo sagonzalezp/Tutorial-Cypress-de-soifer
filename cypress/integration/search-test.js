@@ -9,14 +9,21 @@ describe('Search test cases', ()=>{
         cy.log("Ejecutando todas las poscondiciones");
     })
 
-    it('Search dresses', ()=>{
+    beforeEach(()=>{
         cy.visit("http://automationpractice.com/");
+    })
+
+    afterEach(()=>{
+        cy.log("poniendo datos en su estado original")
+    })
+
+    it('Search dresses', ()=>{
+        
         cy.get('#search_query_top').type('dress');
         cy.get('#searchbox > .btn').click();
         cy.get('.lighter').contains('"dress"');
     })
     it('Search hats', ()=>{
-        cy.visit("http://automationpractice.com/");
         cy.get('#search_query_top').type('hat');
         cy.get('#searchbox > .btn').click();
         cy.get('.lighter').contains('"hat"');
