@@ -22,13 +22,13 @@ describe('Cuentas', ()=>{
     it('probar una condición falsa', ()=>{
         expect(1==2).to.be.false;
     })
-    it('probar que una variable dada, existe'){
+    it('probar que una variable dada, existe',()=>{
         expect(a).to.exist;
-    }
+    })
     it('Es menor a 10', ()=>{
         expect(a).to.be.lessThan(10);
     })
     it('Es mayo a 10', ()=>{
         expect(25).to.be.greaterThan(10);
     })
-}
+})
